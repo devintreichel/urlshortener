@@ -1,0 +1,88 @@
+<style type="text/css">
+body header{
+    text-align: center;
+    position: relative;
+}
+
+body header h1{
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+}
+
+body header h3{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+
+body header a{
+    color: black;
+    text-decoration: none;
+}
+
+body main{
+    text-align: center;
+}
+
+.centerContainer{
+    text-align: left;
+    border: 1px black solid;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.signupDivs, .gotoDivs{
+    display: inline-block;
+    vertical-align: text-top;
+    width: 49%;
+}
+
+.signupDivs h3, .gotoDivs h3 {
+    margin: 0;
+}
+
+/*.gotoDivs {
+    border-left: 1px red solid;
+}*/
+
+.signupDivs form {
+    margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #e2e2e2;
+}
+
+.errorText {
+    color: red;
+}
+
+#statsTableLabel {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+
+.userCorner {
+    position: absolute;
+    text-align: right;
+    top: 0;
+    right: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.userCorner h4 {
+    margin: 0 0 5px 0;
+}
+
+</style>
